@@ -1,0 +1,11 @@
+# Message shown when a player "leaves" after dying
+leave-message: "&e%player% left the game"
+
+# Delay (ticks) before the fake leave message appears
+delay-ticks: 2
+
+# Players within this radius (blocks) of the death will see the message
+death-message-radius: 120
+
+# If a player fought the victim within this many seconds before death, they’ll see the message even if far away
+combat-memory-seconds: 60

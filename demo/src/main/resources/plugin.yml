@@ -1,0 +1,18 @@
+name: FakeLeaveOnDeath
+version: 3.0
+main: com.kurg.fakeleaveondeath.FakeDeath
+api-version: '1.21'
+author: Kurg
+description: Sends a fake leave message when a player dies, synced with EssentialsX nicknames.
+softdepend: [Essentials, PlaceholderAPI]
+
+commands:
+  fakedeath:
+    description: Reload FakeLeaveOnDeath config
+    usage: /fakedeath reload
+    permission: fakedeath.reload
+
+permissions:
+  fakedeath.reload:
+    description: Allows reloading of the plugin config
+    default: op
